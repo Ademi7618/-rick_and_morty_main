@@ -11,7 +11,7 @@ class CharacterItem extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 16),
       child: Card(
-        color: AppColors.cardBackground,
+        color: const Color.fromARGB(255, 217, 219, 228),
         child: SizedBox(
           height: 120,
           child: Row(
